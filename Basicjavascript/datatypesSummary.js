@@ -37,3 +37,23 @@ console.log(typeof outsideTemp);console.log(typeof scoreValue );
 
 console.log(typeof myFunction);
 
+// ****************************
+// Stack(Primitive),Heap(Non-Primitive)
+
+let myInstaname = "SiddhiKhalatecom"
+
+let anothername = myInstaname
+anothername = "chaiaurcode"
+console.log(myInstaname);
+console.log(anothername);
+
+let userOne ={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let userTwo =userOne
+userTwo.email="siddhi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
